@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.plcoding.mapscomposeguide"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+8-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="33" />
+9-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+11-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:4:5-81
+11-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:4:22-78
+12    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+12-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:5:5-78
+12-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:5:22-76
+13
+14    <!-- Include required permissions for Google Maps API to run. -->
+15    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:5-79
+15-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:23:22-76
+16    <uses-permission android:name="android.permission.INTERNET" />
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:5-67
+16-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:24:22-64
+17
+18    <uses-feature
+18-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+19        android:glEsVersion="0x00020000"
+19-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+20        android:required="true" />
+20-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+21
+22    <queries>
+22-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:30:5-34:15
+23
+24        <!-- Needs to be explicitly declared on Android R+ -->
+25        <package android:name="com.google.android.apps.maps" />
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+25-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+26    </queries>
+27
+28    <permission
+28-->[androidx.core:core:1.12.0-alpha01] C:\Users\DELL\.gradle\caches\transforms-3\ad3ae2870ab5e9bd01bc2f31a3b153b1\transformed\core-1.12.0-alpha01\AndroidManifest.xml:22:5-24:47
+29        android:name="com.plcoding.mapscomposeguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+29-->[androidx.core:core:1.12.0-alpha01] C:\Users\DELL\.gradle\caches\transforms-3\ad3ae2870ab5e9bd01bc2f31a3b153b1\transformed\core-1.12.0-alpha01\AndroidManifest.xml:23:9-81
+30        android:protectionLevel="signature" />
+30-->[androidx.core:core:1.12.0-alpha01] C:\Users\DELL\.gradle\caches\transforms-3\ad3ae2870ab5e9bd01bc2f31a3b153b1\transformed\core-1.12.0-alpha01\AndroidManifest.xml:24:9-44
+31
+32    <uses-permission android:name="com.plcoding.mapscomposeguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+32-->[androidx.core:core:1.12.0-alpha01] C:\Users\DELL\.gradle\caches\transforms-3\ad3ae2870ab5e9bd01bc2f31a3b153b1\transformed\core-1.12.0-alpha01\AndroidManifest.xml:26:5-97
+32-->[androidx.core:core:1.12.0-alpha01] C:\Users\DELL\.gradle\caches\transforms-3\ad3ae2870ab5e9bd01bc2f31a3b153b1\transformed\core-1.12.0-alpha01\AndroidManifest.xml:26:22-94
+33
+34    <application
+34-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:7:5-27:19
+35        android:name="com.plcoding.mapscomposeguide.ParkingSpotApplication"
+35-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:8:9-47
+36        android:allowBackup="true"
+36-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:9:9-35
+37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+37-->[androidx.core:core:1.12.0-alpha01] C:\Users\DELL\.gradle\caches\transforms-3\ad3ae2870ab5e9bd01bc2f31a3b153b1\transformed\core-1.12.0-alpha01\AndroidManifest.xml:28:18-86
+38        android:debuggable="true"
+39        android:icon="@mipmap/ic_launcher"
+39-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:10:9-43
+40        android:label="@string/app_name"
+40-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:11:9-41
+41        android:roundIcon="@mipmap/ic_launcher_round"
+41-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:12:9-54
+42        android:supportsRtl="true"
+42-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:13:9-35
+43        android:testOnly="true"
+44        android:theme="@style/Theme.MapsComposeGuide" >
+44-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:14:9-54
+45        <activity
+45-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:15:9-25:20
+46            android:name="com.plcoding.mapscomposeguide.MainActivity"
+46-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:16:13-41
+47            android:exported="true"
+47-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:17:13-36
+48            android:label="@string/app_name"
+48-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:18:13-45
+49            android:theme="@style/Theme.MapsComposeGuide" >
+49-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:19:13-58
+50            <intent-filter>
+50-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:20:13-24:29
+51                <action android:name="android.intent.action.MAIN" />
+51-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:21:17-69
+51-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:21:25-66
+52
+53                <category android:name="android.intent.category.LAUNCHER" />
+53-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:23:17-77
+53-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:23:27-74
+54            </intent-filter>
+55        </activity>
+56
+57        <meta-data
+57-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:26:9-123
+58            android:name="com.google.android.geo.API_KEY"
+58-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:26:20-65
+59            android:value="AIzaSyBHOrGzMeGonIyp1gbognSqEjKzo6OeJsw" />
+59-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:26:66-121
+60
+61        <activity
+61-->[androidx.compose.ui:ui-tooling:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\62b2afe8f6ed82421f2d0c039546cfbd\transformed\ui-tooling-1.1.0\AndroidManifest.xml:25:9-27:39
+62            android:name="androidx.compose.ui.tooling.PreviewActivity"
+62-->[androidx.compose.ui:ui-tooling:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\62b2afe8f6ed82421f2d0c039546cfbd\transformed\ui-tooling-1.1.0\AndroidManifest.xml:26:13-71
+63            android:exported="true" /> <!-- Needs to be explicitly declared on P+ -->
+63-->[androidx.compose.ui:ui-tooling:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\62b2afe8f6ed82421f2d0c039546cfbd\transformed\ui-tooling-1.1.0\AndroidManifest.xml:27:13-36
+64        <uses-library
+64-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+65            android:name="org.apache.http.legacy"
+65-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+66            android:required="false" />
+66-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\DELL\.gradle\caches\transforms-3\5741173e5f348b64e5726ba3e4cd9fde\transformed\play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+67
+68        <activity
+68-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\254befd204bd78d24d66caf69fd3024b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+69            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+69-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\254befd204bd78d24d66caf69fd3024b\transformed\play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+70            android:exported="false"
+70-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\254befd204bd78d24d66caf69fd3024b\transformed\play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+71            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+71-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\DELL\.gradle\caches\transforms-3\254befd204bd78d24d66caf69fd3024b\transformed\play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+72
+73        <meta-data
+73-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fafc72787ea97c6129b329f34c75f250\transformed\play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+74            android:name="com.google.android.gms.version"
+74-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fafc72787ea97c6129b329f34c75f250\transformed\play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+75            android:value="@integer/google_play_services_version" />
+75-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\DELL\.gradle\caches\transforms-3\fafc72787ea97c6129b329f34c75f250\transformed\play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+76
+77        <service
+77-->[androidx.room:room-runtime:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\0c6cd98753c30f516d591ba849daeb18\transformed\room-runtime-2.4.1\AndroidManifest.xml:25:9-28:40
+78            android:name="androidx.room.MultiInstanceInvalidationService"
+78-->[androidx.room:room-runtime:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\0c6cd98753c30f516d591ba849daeb18\transformed\room-runtime-2.4.1\AndroidManifest.xml:26:13-74
+79            android:directBootAware="true"
+79-->[androidx.room:room-runtime:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\0c6cd98753c30f516d591ba849daeb18\transformed\room-runtime-2.4.1\AndroidManifest.xml:27:13-43
+80            android:exported="false" />
+80-->[androidx.room:room-runtime:2.4.1] C:\Users\DELL\.gradle\caches\transforms-3\0c6cd98753c30f516d591ba849daeb18\transformed\room-runtime-2.4.1\AndroidManifest.xml:28:13-37
+81
+82        <provider
+82-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:26:9-34:20
+83            android:name="androidx.startup.InitializationProvider"
+83-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:27:13-67
+84            android:authorities="com.plcoding.mapscomposeguide.androidx-startup"
+84-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:28:13-68
+85            android:exported="false" >
+85-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:29:13-37
+86            <meta-data
+86-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:31:13-33:52
+87                android:name="androidx.profileinstaller.ProfileInstallerInitializer"
+87-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:32:17-85
+88                android:value="androidx.startup" />
+88-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:33:17-49
+89        </provider>
+90
+91        <receiver
+91-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:36:9-45:20
+92            android:name="androidx.profileinstaller.ProfileInstallReceiver"
+92-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:37:13-76
+93            android:directBootAware="false"
+93-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:38:13-44
+94            android:enabled="true"
+94-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:39:13-35
+95            android:exported="true"
+95-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:40:13-36
+96            android:permission="android.permission.DUMP" >
+96-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:41:13-57
+97            <intent-filter>
+97-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:42:13-44:29
+98                <action android:name="androidx.profileinstaller.action.INSTALL_PROFILE" />
+98-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:17-91
+98-->[androidx.profileinstaller:profileinstaller:1.1.0] C:\Users\DELL\.gradle\caches\transforms-3\015946d0db137c1481f84c7eb046f3ce\transformed\profileinstaller-1.1.0\AndroidManifest.xml:43:25-88
+99            </intent-filter>
+100        </receiver>
+101    </application>
+102
+103</manifest>

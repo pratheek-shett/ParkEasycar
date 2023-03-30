@@ -1,8 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.plcoding.mapscomposeguide">
+    package="com.solution.parkeasy">
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
 
     <application
+        android:name="com.solution.parkeasy.ParkingSpotApplication"
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
@@ -10,7 +13,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MapsComposeGuide">
         <activity
-            android:name=".MainActivity"
+            android:name="com.solution.parkeasy.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MapsComposeGuide">
@@ -20,6 +23,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <meta-data android:name="com.google.android.geo.API_KEY" android:value="AIzaSyBHOrGzMeGonIyp1gbognSqEjKzo6OeJsw"/>
     </application>
 
 </manifest>

@@ -32,7 +32,7 @@
     <uses-permission android:name="com.plcoding.mapscomposeguide.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
 
     <application
-        android:name="com.plcoding.mapscomposeguide.ParkingSpotApplication"
+        android:name="com.solution.parkeasy.ParkingSpotApplication"
         android:allowBackup="true"
         android:appComponentFactory="androidx.core.app.CoreComponentFactory"
         android:debuggable="true"
@@ -43,7 +43,7 @@
         android:testOnly="true"
         android:theme="@style/Theme.MapsComposeGuide" >
         <activity
-            android:name="com.plcoding.mapscomposeguide.MainActivity"
+            android:name="com.solution.parkeasy.MainActivity"
             android:exported="true"
             android:label="@string/app_name"
             android:theme="@style/Theme.MapsComposeGuide" >

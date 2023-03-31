@@ -73,7 +73,7 @@ INJECTED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.x
 INJECTED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:2:1-29:12
 INJECTED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:2:1-29:12
 	package
-		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:3:5-44
+		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:3:5-36
 		INJECTED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml
 		INJECTED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml
 	android:versionName
@@ -131,8 +131,8 @@ MERGED from [androidx.startup:startup-runtime:1.0.0] C:\Users\DELL\.gradle\cache
 	android:theme
 		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:14:9-54
 	android:name
-		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:8:9-47
-activity#com.plcoding.mapscomposeguide.MainActivity
+		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:8:9-68
+activity#com.solution.parkeasy.MainActivity
 ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:15:9-25:20
 	android:label
 		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:18:13-45
@@ -141,7 +141,7 @@ ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:
 	android:theme
 		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:19:13-58
 	android:name
-		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:16:13-41
+		ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:16:13-62
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
 ADDED from D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:20:13-24:29
 action#android.intent.action.MAIN

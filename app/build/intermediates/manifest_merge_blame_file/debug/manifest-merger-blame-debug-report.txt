@@ -54,8 +54,8 @@
 33
 34    <application
 34-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:7:5-27:19
-35        android:name="com.plcoding.mapscomposeguide.ParkingSpotApplication"
-35-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:8:9-47
+35        android:name="com.solution.parkeasy.ParkingSpotApplication"
+35-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:8:9-68
 36        android:allowBackup="true"
 36-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:9:9-35
 37        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
@@ -74,8 +74,8 @@
 44-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:14:9-54
 45        <activity
 45-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:15:9-25:20
-46            android:name="com.plcoding.mapscomposeguide.MainActivity"
-46-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:16:13-41
+46            android:name="com.solution.parkeasy.MainActivity"
+46-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:16:13-62
 47            android:exported="true"
 47-->D:\Desktop\New folder\ParkingFinder\app\src\main\AndroidManifest.xml:17:13-36
 48            android:label="@string/app_name"
